@@ -1,0 +1,158 @@
+{
+  "series": "長輩廚房｜吃對了嗎？",
+  "episode": 3,
+  "topic_id": 17,
+  "topic_title": "烹調方式決定營養價值",
+  "format": "E",
+  "format_name": "廚房居家",
+  "hook_text": "同樣一把青菜，用錯方法煮，營養少了一半。",
+  "research_sources": [
+    {
+      "citation": "Food Science and Human Wellness 2018 — Effect of different cooking methods on the content of vitamins and true retention in selected vegetables",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6049644/",
+      "key_finding": "水煮蔬菜維生素C保留率最低（0-74%），蒸煮保留率較高（可達89%），微波保留最好（>90%）。"
+    },
+    {
+      "citation": "Asia Pacific Journal of Clinical Nutrition 2005 — Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15927929/",
+      "key_finding": "番茄加橄欖油烹煮後，血漿中茄紅素濃度提高82%；不加油則幾乎無變化。"
+    },
+    {
+      "citation": "Journal of Agricultural and Food Chemistry 2002 (via CancerNetwork) — Processed tomato products vs fresh tomatoes",
+      "url": "https://www.cancernetwork.com/view/new-study-shows-processed-tomato-products-are-better-source-lycopene-fresh-tomatoes",
+      "key_finding": "加工過的番茄製品，人體吸收的茄紅素是生番茄的2.5倍。加熱破壞細胞壁，讓茄紅素更容易被吸收。"
+    },
+    {
+      "citation": "Journal of Zhejiang University Science B 2009 — Effects of different cooking methods on health-promoting compounds of broccoli",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2722699/",
+      "key_finding": "水煮青花菜流失大量抗氧化物質；蒸煮則幾乎完整保留營養成分。"
+    }
+  ],
+  "title_card": {
+    "line1": "煮錯方法",
+    "line2": "營養少一半",
+    "source_text": "Food Sci & Human Wellness 2018"
+  },
+  "scene_images": [
+    {
+      "id": 1,
+      "part": 1,
+      "description": "居家廚房料理台，蒸鍋與炒鍋並排",
+      "prompt": "居家厨房料理台上，不锈钢蒸锅和铁炒锅并排摆放，旁边有新鲜绿色蔬菜，暖色灯光，木质台面，温馨厨房氛围，写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 2,
+      "part": 2,
+      "description": "新鮮蔬菜食材特寫：青花菜、番茄、菠菜",
+      "prompt": "木质砧板上摆放着新鲜青花菜、红色番茄和翠绿菠菜，水珠在蔬菜表面闪烁，自然光照射，色彩鲜艳，居家厨房背景，写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 3,
+      "part": 2,
+      "description": "番茄加橄欖油在鍋中翻炒的特寫",
+      "prompt": "平底锅中番茄块在橄榄油中翻炒，油光泛红色泽诱人，蒸汽微微升起，暖色调灯光，厨房背景虚化，写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    }
+  ],
+  "global_spec": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。",
+  "part1_prompt": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。[00:00-00:05] 55岁亚洲女性站在厨房料理台前，面前摆着一把新鲜青菜和两个锅，她表情认真地看向镜头，用台湾口音普通话说：「同样一把青菜，用错方法煮，营养少了一半。」镜头从中景缓慢推近。[00:05-00:10] 她将青菜放入一锅滚水中，镜头特写蔬菜在水中翻滚，她用台湾口音普通话说：「研究发现，水煮蔬菜最多流失74%的维生素C。营养全跑到水里去了。」镜头缓慢横移。[00:10-00:15] 她转身打开旁边的蒸锅，蒸汽升起，蒸好的青菜翠绿鲜嫩，她用台湾口音普通话说：「但换成蒸的，维生素C保留率可以到将近九成。同一把菜，差别这么大。」镜头推至蒸锅特写。禁止：任何文字、字幕、LOGO或水印。",
+  "part2_prompt": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。同上一部短片亚洲女性。[00:00-00:05] 她将番茄块放入加了橄榄油的平底锅中翻炒，油光泛红，她用台湾口音普通话说：「番茄反过来。加油煮，茄红素吸收率提高82%。」镜头中景。[00:05-00:10] 她端起一碗蔬菜汤，镜头特写汤的色泽，她用台湾口音普通话说：「如果水煮蔬菜，记得连汤一起喝。营养都在汤里面。」镜头缓推特写。[00:10-00:15] 她微笑站在料理台前，面前摆着蒸好的青菜和番茄汤，看向镜头，用台湾口音普通话说：「蔬菜用蒸的，番茄加点油。煮对了，营养全留住。这里是时时静好。我们下次见。」镜头定格温暖画面。禁止：任何文字、字幕、LOGO或水印。",
+  "sound": "厨房环境声，蒸汽嘶嘶声，锅铲翻炒声",
+  "music": "温暖欢快配乐，居家氛围，轻快节奏",
+  "subtitles": [
+    {
+      "text": "同樣一把青菜",
+      "start": 3.5,
+      "end": 5.0,
+      "style": "main"
+    },
+    {
+      "text": "用錯方法煮營養少一半",
+      "start": 5.0,
+      "end": 7.5,
+      "style": "main"
+    },
+    {
+      "text": "水煮蔬菜",
+      "start": 7.5,
+      "end": 8.5,
+      "style": "main"
+    },
+    {
+      "text": "最多流失74%維生素C",
+      "start": 8.5,
+      "end": 11.0,
+      "style": "main"
+    },
+    {
+      "text": "換成蒸的",
+      "start": 11.0,
+      "end": 12.0,
+      "style": "main"
+    },
+    {
+      "text": "保留率將近九成",
+      "start": 12.0,
+      "end": 14.0,
+      "style": "main"
+    },
+    {
+      "text": "同一把菜差別這麼大",
+      "start": 14.0,
+      "end": 16.5,
+      "style": "main"
+    },
+    {
+      "text": "番茄加油煮",
+      "start": 21.5,
+      "end": 23.0,
+      "style": "main"
+    },
+    {
+      "text": "茄紅素吸收率提高82%",
+      "start": 23.0,
+      "end": 25.5,
+      "style": "main"
+    },
+    {
+      "text": "水煮蔬菜連湯一起喝",
+      "start": 25.5,
+      "end": 27.5,
+      "style": "main"
+    },
+    {
+      "text": "營養都在湯裡面",
+      "start": 27.5,
+      "end": 29.0,
+      "style": "main"
+    },
+    {
+      "text": "蔬菜用蒸的番茄加點油",
+      "start": 29.0,
+      "end": 31.0,
+      "style": "main"
+    },
+    {
+      "text": "煮對了營養全留住",
+      "start": 31.0,
+      "end": 33.0,
+      "style": "main"
+    },
+    {
+      "text": "這裡是時時靜好",
+      "start": 33.0,
+      "end": 34.5,
+      "style": "main"
+    },
+    {
+      "text": "我們下次見",
+      "start": 34.5,
+      "end": 36.0,
+      "style": "main"
+    }
+  ],
+  "youtube_metadata": {
+    "title": "水煮青菜營養流失74%？換個煮法差很大｜長輩廚房｜時時靜好",
+    "description": "同樣一把青菜，用錯方法煮，營養少了一半。\n研究發現，水煮蔬菜最多流失 74% 的維生素 C，但蒸煮保留率可達近九成。\n而番茄加油煮，茄紅素吸收率反而提高 82%！\n\n重點整理：\n❶ 蔬菜優先用蒸的或快炒——營養保留率最高\n❷ 番茄加少量油烹煮——茄紅素吸收率提高 82%\n❸ 如果水煮蔬菜，記得連湯一起喝——營養都溶在湯裡\n❹ 避免反覆加熱油炸——高溫會產生有害物質\n\n研究來源：\n• Food Science and Human Wellness (2018) — 不同烹調法對蔬菜維生素保留率的影響\n• Asia Pacific J Clinical Nutrition (2005) — 番茄加橄欖油烹煮提高茄紅素吸收\n• J Agricultural and Food Chemistry (2002) — 加工番茄茄紅素吸收為生番茄 2.5 倍\n• J Zhejiang University Science B (2009) — 青花菜不同烹調法營養保留比較\n\n🥦 這是「長輩廚房｜吃對了嗎？」系列第三集！\n\n覺得有用的話，傳給家裡煮飯的人看！\n留言告訴我，你家最常用什麼方式煮菜？\n\n#烹調方式 #蒸煮 #維生素C #茄紅素 #長輩廚房 #吃對了嗎 #長輩健康 #健康新知 #時時靜好 #Shorts",
+    "hashtags": ["#烹調方式", "#蒸煮", "#維生素C", "#茄紅素", "#長輩廚房", "#吃對了嗎", "#長輩健康", "#健康新知", "#時時靜好", "#Shorts"]
+  }
+}

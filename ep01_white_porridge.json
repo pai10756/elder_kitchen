@@ -1,0 +1,217 @@
+{
+  "series": "長輩廚房｜吃對了嗎？",
+  "episode": 1,
+  "topic_id": 47,
+  "topic_title": "吃飯不要只吃白粥",
+  "format": "E",
+  "format_name": "廚房居家",
+  "hook_text": "白粥煮越爛，升糖指數越高——煮太久的粥，血糖反應跟糖水差不多。",
+  "research_sources": [
+    {
+      "citation": "Foods 2025 — The Influence of Rice Types and Boiling Time on Glycemic Index",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11720369/",
+      "key_finding": "白米煮 20 分鐘 GI=83，煮 30 分鐘 GI 升至 96.2，增幅 15.8%"
+    },
+    {
+      "citation": "J Am Diet Assoc 2004 — Postprandial glucose response to Chinese foods",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15565080/",
+      "key_finding": "白粥的餐後血糖反應高於白飯和麵條"
+    },
+    {
+      "citation": "中華民國糖尿病學會飲食指南",
+      "key_finding": "白粥屬高升糖食物，糖尿病患者應注意攝取方式"
+    }
+  ],
+  "title_card": {
+    "line1": "白粥煮太爛",
+    "line2": "升糖指數飆破96",
+    "source_text": "Foods 2025"
+  },
+  "scene_images": [
+    {
+      "id": 1,
+      "part": 1,
+      "description": "居家廚房料理台，砂鍋白粥正冒著蒸汽",
+      "prompt": "居家厨房木质料理台上，一个陶瓷砂锅里盛着白色米粥，蒸汽缓缓升起，旁边放着小碟酱菜和一双筷子，暖色灯光，温馨厨房氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 2,
+      "part": 2,
+      "description": "五穀粥食材特寫：糙米、燕麥、地瓜、雞蛋",
+      "prompt": "木质砧板上整齐摆放着糙米、燕麦片、切块地瓜和两颗鸡蛋，色彩丰富，自然光照射，背景是温暖的居家厨房，写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 3,
+      "part": 2,
+      "description": "一碗色彩豐富的五穀粥，配蛋和青菜",
+      "prompt": "木质餐桌上一碗浓稠的五谷粥，上面放着半颗水煮蛋和翠绿青菜，色彩丰富营养感十足，旁边有一双木筷，暖色自然光，居家早餐氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    }
+  ],
+  "global_spec": "电影级短片，居家风格，9:16竖屏。warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围。",
+  "character": "55岁亚洲女性站在料理台前",
+  "parts": [
+    {
+      "part": 1,
+      "scenes": [
+        {
+          "time": "0-5秒",
+          "scene_ref": 1,
+          "scene_desc": "居家厨房场景",
+          "action": "面前砂锅白粥冒着蒸汽，她表情认真看向镜头",
+          "camera": "中景缓慢推近至近景",
+          "dialogue": "白粥煮越烂，升糖指数越高。||煮太久的粥，血糖反应跟糖水差不多。"
+        },
+        {
+          "time": "6-10秒",
+          "scene_ref": 1,
+          "scene_desc": "砂锅白粥特写",
+          "action": "白粥翻滚冒泡，蒸汽升腾",
+          "camera": "特写，缓慢横移展示粥的绵密质地",
+          "dialogue": "国际食品期刊研究发现，白米煮超过30分钟，升糖指数飙到96。||糖水才100。"
+        },
+        {
+          "time": "11-15秒",
+          "scene_ref": 1,
+          "scene_desc": "厨房场景",
+          "action": "她站在料理台前微微摇头，表情关切",
+          "camera": "推至近景",
+          "dialogue": "很多人觉得喝粥养胃又健康，但煮太烂的白粥，反而让血糖坐云霄飞车。"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "scenes": [
+        {
+          "time": "0-5秒",
+          "scene_ref": 2,
+          "scene_desc": "食材场景",
+          "action": "她在料理台前展示糙米、燕麦和地瓜，表情变得轻松",
+          "camera": "中景",
+          "dialogue": "怎么办？用五谷粥取代白粥。||加糙米、燕麦、地瓜，纤维多，血糖就稳。"
+        },
+        {
+          "time": "6-10秒",
+          "scene_ref": 2,
+          "scene_desc": "厨房场景",
+          "action": "她将一颗蛋打入锅中，蛋液滑入粥面",
+          "camera": "特写食材入锅，再拉回中景",
+          "dialogue": "粥里加蛋或豆腐，蛋白质可以减缓血糖上升。||记得先吃菜和蛋白质，最后才喝粥。"
+        },
+        {
+          "time": "11-15秒",
+          "scene_ref": 3,
+          "scene_desc": "五谷粥场景",
+          "action": "她端起一碗色彩丰富的五谷粥，微笑看向镜头",
+          "camera": "缓推定格温暖画面",
+          "dialogue": "粥可以喝，但要喝对。||这里是时时静好。我们下次见。"
+        }
+      ]
+    }
+  ],
+  "sound": "厨房轻微环境声，粥冒泡的咕噜声，筷子轻碰碗的声音",
+  "music": "温暖欢快配乐，居家氛围，轻快节奏",
+  "subtitles": [
+    {
+      "text": "白粥煮越爛",
+      "start": 3.5,
+      "end": 5.0,
+      "style": "main"
+    },
+    {
+      "text": "升糖指數越高",
+      "start": 5.0,
+      "end": 6.5,
+      "style": "main"
+    },
+    {
+      "text": "煮太久的粥",
+      "start": 6.5,
+      "end": 7.5,
+      "style": "main"
+    },
+    {
+      "text": "血糖反應跟糖水差不多",
+      "start": 7.5,
+      "end": 9.5,
+      "style": "main"
+    },
+    {
+      "text": "白米煮超過30分鐘",
+      "start": 9.5,
+      "end": 11.5,
+      "style": "main"
+    },
+    {
+      "text": "升糖指數飆到96",
+      "start": 11.5,
+      "end": 13.0,
+      "style": "main"
+    },
+    {
+      "text": "煮太爛的白粥",
+      "start": 13.0,
+      "end": 14.5,
+      "style": "main"
+    },
+    {
+      "text": "血糖坐雲霄飛車",
+      "start": 14.5,
+      "end": 16.5,
+      "style": "main"
+    },
+    {
+      "text": "用五穀粥取代白粥",
+      "start": 21.5,
+      "end": 23.5,
+      "style": "main"
+    },
+    {
+      "text": "加糙米燕麥地瓜",
+      "start": 23.5,
+      "end": 25.0,
+      "style": "main"
+    },
+    {
+      "text": "纖維多血糖就穩",
+      "start": 25.0,
+      "end": 26.5,
+      "style": "main"
+    },
+    {
+      "text": "粥裡加蛋或豆腐",
+      "start": 26.5,
+      "end": 28.0,
+      "style": "main"
+    },
+    {
+      "text": "先吃菜再喝粥",
+      "start": 28.0,
+      "end": 29.5,
+      "style": "main"
+    },
+    {
+      "text": "粥可以喝但要喝對",
+      "start": 29.5,
+      "end": 31.5,
+      "style": "main"
+    },
+    {
+      "text": "這裡是時時靜好",
+      "start": 31.5,
+      "end": 33.0,
+      "style": "main"
+    },
+    {
+      "text": "我們下次見",
+      "start": 33.0,
+      "end": 34.5,
+      "style": "main"
+    }
+  ],
+  "youtube_metadata": {
+    "title": "白粥煮太爛，升糖指數飆破96？粥這樣煮才健康｜長輩廚房｜時時靜好",
+    "description": "白粥煮越爛，升糖指數越高——煮太久的粥，血糖反應跟糖水差不多。\n國際食品期刊研究發現，白米煮超過 30 分鐘，升糖指數從 83 飆到 96。糖水才 100。\n\n四個步驟，粥照喝但更健康：\n❶ 用五穀粥取代白粥——加糙米、燕麥、地瓜增加纖維\n❷ 粥裡加蛋、豆腐或魚肉——蛋白質減緩血糖上升\n❸ 先吃蔬菜和蛋白質，最後喝粥——進食順序影響血糖\n❹ 若要喝白粥，煮稠一點並搭配蛋白質\n\n研究來源：\n• Foods (2025) — The Influence of Rice Types and Boiling Time on Glycemic Index\n• J Am Diet Assoc (2004) — Postprandial glucose response to Chinese foods\n• 中華民國糖尿病學會飲食指南\n\n🍚 這是「長輩廚房｜吃對了嗎？」系列第一集！\n每週兩集，用科學幫你煮出更健康的一餐。\n\n覺得有用的話，傳給家裡煮飯的人看！\n留言告訴我，你家早餐都喝白粥嗎？\n\n#白粥 #血糖 #升糖指數 #飲食迷思 #長輩廚房 #吃對了嗎 #長輩健康 #健康新知 #時時靜好 #Shorts",
+    "hashtags": ["#白粥", "#血糖", "#升糖指數", "#飲食迷思", "#長輩廚房", "#吃對了嗎", "#長輩健康", "#健康新知", "#時時靜好", "#Shorts"]
+  }
+}

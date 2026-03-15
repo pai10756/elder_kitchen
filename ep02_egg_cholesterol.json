@@ -1,0 +1,158 @@
+{
+  "series": "長輩廚房｜吃對了嗎？",
+  "episode": 2,
+  "topic_id": 10,
+  "topic_title": "雞蛋與膽固醇：被冤枉的好食物",
+  "format": "E",
+  "format_name": "廚房居家",
+  "hook_text": "一天只能吃一顆蛋？2025年最新研究說：冤枉了。",
+  "research_sources": [
+    {
+      "citation": "American Journal of Clinical Nutrition (AJCN) 2025 — Impact of dietary cholesterol from eggs and saturated fat on LDL cholesterol levels: a randomized cross-over study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40339906/",
+      "key_finding": "61人隨機交叉試驗：每天吃2顆蛋但低飽和脂肪的組別，LDL反而下降（109→104）。飽和脂肪與LDL正相關，但飲食中的膽固醇與LDL無關。"
+    },
+    {
+      "citation": "Nutrition, Metabolism and Cardiovascular Diseases 2025 — Umbrella review of egg consumption and health outcomes",
+      "url": "https://www.nmcd-journal.com/article/S0939-4753(25)00003-1/fulltext",
+      "key_finding": "系統性傘狀回顧結論：目前沒有足夠的高品質證據支持限制雞蛋攝取。"
+    },
+    {
+      "citation": "Current Developments in Nutrition 2024 (Framingham Offspring Study)",
+      "url": "https://cdn.nutrition.org/article/S2475-2991(23)26646-9/fulltext",
+      "key_finding": "較高蛋攝取量搭配高膳食纖維，與最低的總膽固醇和LDL膽固醇相關。"
+    },
+    {
+      "citation": "衛生福利部國民健康署",
+      "url": "https://www.hpa.gov.tw/Pages/Detail.aspx?nodeid=1425&pid=15180",
+      "key_finding": "健康成年人每日適量食用雞蛋不會導致血中膽固醇增加。體內膽固醇約70%自身合成，飲食僅佔30%。"
+    }
+  ],
+  "title_card": {
+    "line1": "一天只能吃一顆蛋？",
+    "line2": "最新研究說：冤枉了",
+    "source_text": "AJCN 2025"
+  },
+  "scene_images": [
+    {
+      "id": 1,
+      "part": 1,
+      "description": "居家廚房料理台，竹籃裡放著多顆雞蛋",
+      "prompt": "居家厨房木质料理台上，一个竹编篮子里放着六七颗新鲜鸡蛋，旁边有一块木质砧板，暖色灯光，自然光从窗户照入，温馨厨房氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 2,
+      "part": 2,
+      "description": "水煮蛋剖面特寫，蛋黃金黃飽滿",
+      "prompt": "木质桌面上一颗切开的水煮蛋，蛋黄金黄饱满，旁边还有一颗完整的水煮蛋和几片绿色生菜叶，自然光照射，色彩鲜明，居家早餐氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 3,
+      "part": 2,
+      "description": "蒸蛋成品特寫，表面光滑金黃",
+      "prompt": "白色陶瓷碗里一碗刚蒸好的蒸蛋，表面光滑嫩黄，上面撒了少许葱花，蒸汽微微升起，旁边有一支小汤匙，暖色灯光，温馨居家餐桌。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    }
+  ],
+  "global_spec": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。",
+  "part1_prompt": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。[00:00-00:05] 55岁亚洲女性站在厨房料理台前，面前放着一篮鸡蛋，她拿起一颗蛋看向镜头，用台湾口音普通话说：「一天只能吃一颗蛋？2025年最新研究说：冤枉了。」镜头从中景缓慢推近。[00:05-00:10] 镜头特写篮子里的鸡蛋，她用台湾口音普通话说：「美国临床营养期刊的研究发现，每天吃两颗蛋，只要少吃肥肉，胆固醇反而下降。」镜头缓慢横移。[00:10-00:15] 她站在料理台前微微点头，用台湾口音普通话说：「真正让胆固醇升高的，不是鸡蛋，是猪皮、肥肉这些饱和脂肪。」镜头推至近景。禁止：任何文字、字幕、LOGO或水印。",
+  "part2_prompt": "电影级短片，居家风格，9:16竖屏。全域规格：warm暖色温，自然光+暖灯光，木质桌面，居家厨房氛围，温馨舒适。同上一部短片亚洲女性。[00:00-00:05] 她在料理台前将鸡蛋放入锅中煮，用台湾口音普通话说：「健康长辈每天吃一到两颗全蛋是安全的。水煮蛋、蒸蛋，比煎蛋更好。」镜头中景。[00:05-00:10] 镜头特写切开的水煮蛋，蛋黄饱满金黄，她用台湾口音普通话说：「蛋黄千万别丢。蛋黄富含胆碱，对大脑记忆功能有保护作用。」镜头缓推至蛋黄特写。[00:10-00:15] 她端着一盘水煮蛋和蔬菜，微笑看向镜头，用台湾口音普通话说：「鸡蛋是最平价的优质蛋白质。放心吃吧。这里是时时静好。我们下次见。」镜头定格温暖画面。禁止：任何文字、字幕、LOGO或水印。",
+  "sound": "厨房轻微环境声，鸡蛋放入水中的声音，轻微冒泡声",
+  "music": "温暖欢快配乐，居家氛围，轻快节奏",
+  "subtitles": [
+    {
+      "text": "一天只能吃一顆蛋？",
+      "start": 3.5,
+      "end": 5.5,
+      "style": "main"
+    },
+    {
+      "text": "最新研究說冤枉了",
+      "start": 5.5,
+      "end": 7.5,
+      "style": "main"
+    },
+    {
+      "text": "每天吃兩顆蛋",
+      "start": 7.5,
+      "end": 9.0,
+      "style": "main"
+    },
+    {
+      "text": "少吃肥肉",
+      "start": 9.0,
+      "end": 10.0,
+      "style": "main"
+    },
+    {
+      "text": "膽固醇反而下降",
+      "start": 10.0,
+      "end": 12.0,
+      "style": "main"
+    },
+    {
+      "text": "真正的兇手是飽和脂肪",
+      "start": 12.0,
+      "end": 14.0,
+      "style": "main"
+    },
+    {
+      "text": "豬皮肥肉才要少吃",
+      "start": 14.0,
+      "end": 16.0,
+      "style": "main"
+    },
+    {
+      "text": "每天一到兩顆全蛋",
+      "start": 21.5,
+      "end": 23.5,
+      "style": "main"
+    },
+    {
+      "text": "水煮蛋蒸蛋更好",
+      "start": 23.5,
+      "end": 25.0,
+      "style": "main"
+    },
+    {
+      "text": "蛋黃千萬別丟",
+      "start": 25.0,
+      "end": 26.5,
+      "style": "main"
+    },
+    {
+      "text": "蛋黃富含膽鹼護大腦",
+      "start": 26.5,
+      "end": 28.5,
+      "style": "main"
+    },
+    {
+      "text": "最平價的優質蛋白質",
+      "start": 28.5,
+      "end": 30.5,
+      "style": "main"
+    },
+    {
+      "text": "放心吃吧",
+      "start": 30.5,
+      "end": 31.5,
+      "style": "main"
+    },
+    {
+      "text": "這裡是時時靜好",
+      "start": 31.5,
+      "end": 33.0,
+      "style": "main"
+    },
+    {
+      "text": "我們下次見",
+      "start": 33.0,
+      "end": 34.5,
+      "style": "main"
+    }
+  ],
+  "youtube_metadata": {
+    "title": "一天只能吃一顆蛋？2025最新研究替雞蛋翻案了｜長輩廚房｜時時靜好",
+    "description": "長輩都說一天只能吃一顆蛋，怕膽固醇太高？\n2025年《美國臨床營養期刊》最新隨機試驗發現：每天吃兩顆蛋，只要少吃飽和脂肪，LDL膽固醇反而下降。\n\n重點整理：\n❶ 健康長輩每天 1-2 顆全蛋是安全的（含蛋黃）\n❷ 真正升高膽固醇的是飽和脂肪（肥肉、豬皮、酥油），不是雞蛋\n❸ 水煮蛋、蒸蛋優於煎蛋——關鍵在烹調用油量\n❹ 蛋黃富含膽鹼，對大腦記憶功能有保護作用，別丟掉\n\n研究來源：\n• American Journal of Clinical Nutrition (2025) — 隨機交叉試驗\n• Nutrition, Metabolism and Cardiovascular Diseases (2025) — 傘狀回顧\n• Current Developments in Nutrition (2024) — Framingham 世代研究\n• 衛生福利部國民健康署\n\n🥚 這是「長輩廚房｜吃對了嗎？」系列第二集！\n\n覺得有用的話，傳給家裡煮飯的人看！\n留言告訴我，你家長輩一天吃幾顆蛋？\n\n#雞蛋 #膽固醇 #蛋黃 #飲食迷思 #長輩廚房 #吃對了嗎 #長輩健康 #健康新知 #時時靜好 #Shorts",
+    "hashtags": ["#雞蛋", "#膽固醇", "#蛋黃", "#飲食迷思", "#長輩廚房", "#吃對了嗎", "#長輩健康", "#健康新知", "#時時靜好", "#Shorts"]
+  }
+}
