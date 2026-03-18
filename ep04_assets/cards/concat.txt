@@ -1,0 +1,15 @@
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_hook.png'
+duration 5.25
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_rank5.png'
+duration 7.71
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_rank4.png'
+duration 6.84
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_rank3.png'
+duration 5.25
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_rank2.png'
+duration 4.83
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_rank1.png'
+duration 4.36
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_cta.png'
+duration 7.24
+file 'D:\projetcts\elder_kitchen\ep04_assets\cards\card_cta.png'

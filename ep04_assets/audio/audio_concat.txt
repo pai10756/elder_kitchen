@@ -1,0 +1,7 @@
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_00.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_01.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_02.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_03.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_04.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_05.mp3'
+file 'D:\projetcts\elder_kitchen\ep04_assets\audio\seg_06.mp3'

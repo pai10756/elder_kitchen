@@ -1,0 +1,304 @@
+{
+  "series": "長輩廚房｜吃對了嗎？",
+  "sub_series": "營養素排行榜",
+  "episode": 4,
+  "type": "ranking",
+  "topic_title": "補鈣食物 TOP 5：第一名不是牛奶！",
+  "format": "E",
+  "format_name": "廚房居家",
+  "hook_text": "喝牛奶補鈣？其實有五種食物，鈣含量是牛奶的好幾倍。",
+  "research_sources": [
+    {
+      "citation": "USDA FoodData Central (SR Legacy)",
+      "url": "https://fdc.nal.usda.gov/",
+      "key_finding": "黑芝麻含鈣 975mg/100g，小魚乾含鈣 1,200-1,600mg/100g，牛奶僅 113mg/100g"
+    },
+    {
+      "citation": "Heaney RP, Weaver CM. Calcium absorption from kale. Am J Clin Nutr. 1990;51(4):656-7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2321572/",
+      "key_finding": "十字花科蔬菜（芥蘭、青江菜）鈣吸收率達 49-54%，高於牛奶的 32%"
+    },
+    {
+      "citation": "Heaney RP, Weaver CM, Recker RR. Calcium absorbability from spinach. Am J Clin Nutr. 1988;47(4):707-9.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3354496/",
+      "key_finding": "菠菜鈣吸收率僅 5%，草酸嚴重抑制鈣吸收"
+    },
+    {
+      "citation": "Weaver CM et al. Calcium bioavailability from calcium-set tofu. J Food Sci. 2002;67(9):3144-7.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16177199/",
+      "key_finding": "板豆腐（石膏凝固）鈣吸收率約 31%，與牛奶相當"
+    },
+    {
+      "citation": "衛福部食品營養成分資料庫",
+      "url": "https://consumer.fda.gov.tw/Food/TFND.aspx",
+      "key_finding": "台灣在地食材營養素數據佐證"
+    }
+  ],
+  "title_card": {
+    "line1": "補鈣食物TOP 5",
+    "line2": "第一名不是牛奶！",
+    "source_text": "USDA FoodData Central"
+  },
+  "ranking_data": [
+    {
+      "rank": 5,
+      "food": "莧菜",
+      "food_en": "Amaranth leaves",
+      "value": 215,
+      "unit": "mg/100g",
+      "serving_note": "一碗煮熟莧菜（180g）≈ 387mg 鈣",
+      "comparison": "是牛奶的 1.9 倍",
+      "absorption_note": "吸收率中等，搭配維生素 C 可提升",
+      "food_image": "amaranth.png"
+    },
+    {
+      "rank": 4,
+      "food": "板豆腐",
+      "food_en": "Calcium-set tofu",
+      "value": 350,
+      "unit": "mg/100g",
+      "serving_note": "半塊板豆腐（150g）≈ 525mg 鈣",
+      "comparison": "是牛奶的 3.1 倍",
+      "absorption_note": "鈣吸收率 31%，與牛奶相當（Weaver 2002）",
+      "food_image": "tofu.png"
+    },
+    {
+      "rank": 3,
+      "food": "海帶（乾燥）",
+      "food_en": "Dried kelp",
+      "value": 625,
+      "unit": "mg/100g",
+      "serving_note": "一碗味噌湯用海帶（10g 乾）≈ 63mg 鈣",
+      "comparison": "是牛奶的 5.5 倍",
+      "absorption_note": "乾燥數據高，泡發後實際攝取量需注意",
+      "food_image": "kelp.png"
+    },
+    {
+      "rank": 2,
+      "food": "黑芝麻",
+      "food_en": "Black sesame seeds",
+      "value": 975,
+      "unit": "mg/100g",
+      "serving_note": "兩湯匙黑芝麻（16g）≈ 156mg 鈣",
+      "comparison": "是牛奶的 8.6 倍！",
+      "absorption_note": "含植酸影響吸收，磨粉食用可提升吸收率",
+      "food_image": "black_sesame.png"
+    },
+    {
+      "rank": 1,
+      "food": "小魚乾",
+      "food_en": "Dried small fish (with bones)",
+      "value": 1380,
+      "unit": "mg/100g",
+      "serving_note": "一小把小魚乾（15g）≈ 207mg 鈣",
+      "comparison": "是牛奶的 12 倍！",
+      "absorption_note": "連骨食用，鈣吸收率高，同時補充維生素 D",
+      "food_image": "dried_fish.png"
+    }
+  ],
+  "comparison_note": "牛奶含鈣 113mg/100g（一杯 240ml ≈ 277mg），吸收率 32%",
+  "data_source": "USDA FoodData Central",
+  "myth_bust": "菠菜含鈣不低（99mg/100g），但草酸讓吸收率只有 5%——補鈣別靠菠菜！",
+  "production_method": "全圖卡動畫（Pillow + ffmpeg）+ ElevenLabs 配音",
+  "scene_images": [
+    {
+      "id": 1,
+      "part": "hook_bg",
+      "description": "片頭 Hook：一杯牛奶 vs 一整排補鈣食材的戲劇性對比",
+      "prompt": "Dramatic food photography, 9:16 vertical. A single glass of milk placed on the LEFT side of a dark wooden table, looking small and lonely. On the RIGHT side, an abundant pile of calcium-rich foods towers over it: dried small fish, black sesame seeds in a wooden bowl, firm tofu blocks, dark green kelp, and fresh amaranth greens. Warm spotlight from above highlights the contrast. The calcium-rich foods side is 3x taller than the milk glass, creating a visual 'David vs Goliath' composition. Moody warm lighting, shallow depth of field, cinematic food styling. No text, no people, no watermarks, no logos."
+    },
+    {
+      "id": 2,
+      "part": "food_amaranth",
+      "description": "莧菜特寫",
+      "prompt": "一碗新鲜翠绿的炒苋菜放在木质餐桌上，菜叶油亮，旁边一双木筷，暖色自然光，居家餐桌氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 3,
+      "part": "food_tofu",
+      "description": "板豆腐特寫",
+      "prompt": "木质砧板上一块白色板豆腐，切成整齐方块，旁边有姜丝和葱花点缀，暖色灯光，厨房料理氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 4,
+      "part": "food_kelp",
+      "description": "海帶特寫",
+      "prompt": "白色碗里一碗深绿色凉拌海带丝，撒上白芝麻，旁边放着醋碟，木质餐桌，自然光照射，清爽健康氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 5,
+      "part": "food_sesame",
+      "description": "黑芝麻特寫",
+      "prompt": "木勺舀起满满一勺黑芝麻，旁边小碗里还有磨好的黑芝麻粉，暖色灯光，木质桌面，营养食材特写。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 6,
+      "part": "food_dried_fish",
+      "description": "小魚乾特寫",
+      "prompt": "白色小碟上整齐摆放金黄色小鱼干，鱼干完整酥脆，旁边有花生和辣椒点缀，暖色灯光，居家零食氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    },
+    {
+      "id": 7,
+      "part": "cta_bg",
+      "description": "結尾背景：各種補鈣食材的溫暖餐桌",
+      "prompt": "温馨居家厨房木质料理台上，一碗热腾腾的味噌汤里有豆腐和海带，旁边摆着一小碟黑芝麻和小鱼干，暖色灯光，温馨早餐氛围。写实摄影风格，9:16竖屏。不要任何文字、人物、水印、LOGO。"
+    }
+  ],
+  "parts": [
+    {
+      "part": "hook",
+      "duration": "0-3.5秒",
+      "method": "pillow_ffmpeg",
+      "visual": "背景圖 scene_image[1] 加深暗處理，疊加標題文字動畫（由下滑入）",
+      "title_overlay": {
+        "line1": "補鈣食物 TOP 5",
+        "line2": "第一名不是牛奶！",
+        "source_badge": "資料來源：USDA"
+      }
+    },
+    {
+      "part": "ranking_cards",
+      "duration": "3.5-26秒",
+      "method": "pillow_ffmpeg",
+      "note": "每張圖卡：食材照片（scene_image）+ 排名數字 + 數據條 + 高亮文字。淡入動畫，底部角落標注 USDA FoodData Central",
+      "cards": [
+        {
+          "rank": 5,
+          "display_time": "3.5-7.5秒",
+          "food": "莧菜",
+          "value_display": "215 mg",
+          "bar_ratio": 0.16,
+          "highlight": "一碗 = 387mg 鈣",
+          "food_image_ref": 2
+        },
+        {
+          "rank": 4,
+          "display_time": "7.5-11.5秒",
+          "food": "板豆腐",
+          "value_display": "350 mg",
+          "bar_ratio": 0.25,
+          "highlight": "半塊 = 三杯牛奶的鈣",
+          "food_image_ref": 3
+        },
+        {
+          "rank": 3,
+          "display_time": "11.5-15.5秒",
+          "food": "海帶",
+          "value_display": "625 mg",
+          "bar_ratio": 0.45,
+          "highlight": "是牛奶的 5.5 倍",
+          "food_image_ref": 4
+        },
+        {
+          "rank": 2,
+          "display_time": "15.5-19.5秒",
+          "food": "黑芝麻",
+          "value_display": "975 mg",
+          "bar_ratio": 0.71,
+          "highlight": "是牛奶的 8.6 倍！",
+          "food_image_ref": 5
+        },
+        {
+          "rank": 1,
+          "display_time": "19.5-24秒",
+          "food": "小魚乾",
+          "value_display": "1,380 mg",
+          "bar_ratio": 1.0,
+          "highlight": "冠軍！是牛奶的 12 倍！",
+          "food_image_ref": 6
+        }
+      ]
+    },
+    {
+      "part": "cta",
+      "duration": "26-33秒",
+      "method": "pillow_ffmpeg",
+      "visual": "背景圖 scene_image[7] 加暖色濾鏡，疊加 CTA 文字 + 頻道名"
+    }
+  ],
+  "voiceover": {
+    "engine": "elevenlabs",
+    "model": "eleven_v3",
+    "voice_settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.85,
+      "style": 0.15,
+      "use_speaker_boost": true,
+      "speed": 1.15
+    },
+    "note": "ELEVENLABS_API_KEY 和 ELEVENLABS_VOICE_ID 從 .env 或環境變數讀取，參數沿用 almanac_factory 設定",
+    "pronunciation_notes": "「鈣」→簡體「钙」(gài)；「莧」→簡體「苋」(xiàn)；「小魚乾」→「小鱼干」",
+    "segments": [
+      {
+        "id": 0,
+        "part": "hook",
+        "text": "[upbeat][curious] 补钙食物，你猜第一名是谁？不是牛奶！"
+      },
+      {
+        "id": 1,
+        "part": "rank5",
+        "text": "[upbeat] 第五名，献菜。钙含量是牛奶的两倍，煮一碗就有三百八十七毫克。"
+      },
+      {
+        "id": 2,
+        "part": "rank4",
+        "text": "[upbeat] 第四名，板豆腐。半块豆腐的钙，等于三杯牛奶。"
+      },
+      {
+        "id": 3,
+        "part": "rank3",
+        "text": "[upbeat] 第三名，海带。钙含量是牛奶的五点五倍。"
+      },
+      {
+        "id": 4,
+        "part": "rank2",
+        "text": "[upbeat][excited] 第二名，黑芝麻。 [declarative] 是牛奶的八点六倍。"
+      },
+      {
+        "id": 5,
+        "part": "rank1",
+        "text": "[upbeat] 第一名... [enthusiastic] 小鱼干！是牛奶的十二倍！"
+      },
+      {
+        "id": 6,
+        "part": "cta",
+        "text": "[upbeat][warm] 别只靠牛奶，换着吃，钙质更充足。 [soft] 这里是时时静好，我们下次见。"
+      }
+    ]
+  },
+  "sound": "輕柔環境白噪音底層",
+  "music": "温暖欢快配乐，居家氛围，轻快节奏，圖卡揭曉時加入輕微鼓點強調",
+  "subtitles": [
+    {"text": "喝牛奶補鈣？", "start": 0.5, "end": 1.5},
+    {"text": "有五種食物", "start": 1.5, "end": 2.3},
+    {"text": "鈣含量是牛奶的好幾倍", "start": 2.3, "end": 3.5},
+    {"text": "第5名 莧菜", "start": 3.5, "end": 5.0, "style": "ranking"},
+    {"text": "215mg／100g", "start": 5.0, "end": 6.0, "style": "data"},
+    {"text": "一碗煮熟莧菜 = 387mg鈣", "start": 6.0, "end": 7.5, "style": "data"},
+    {"text": "第4名 板豆腐", "start": 7.5, "end": 9.0, "style": "ranking"},
+    {"text": "350mg／100g", "start": 9.0, "end": 10.0, "style": "data"},
+    {"text": "半塊豆腐等於三杯牛奶", "start": 10.0, "end": 11.5, "style": "data"},
+    {"text": "第3名 海帶", "start": 11.5, "end": 13.0, "style": "ranking"},
+    {"text": "625mg／100g", "start": 13.0, "end": 14.0, "style": "data"},
+    {"text": "是牛奶的5.5倍", "start": 14.0, "end": 15.5, "style": "data"},
+    {"text": "第2名 黑芝麻", "start": 15.5, "end": 17.0, "style": "ranking"},
+    {"text": "975mg／100g", "start": 17.0, "end": 18.0, "style": "data"},
+    {"text": "是牛奶的8.6倍！", "start": 18.0, "end": 19.5, "style": "data"},
+    {"text": "第1名 小魚乾", "start": 19.5, "end": 21.0, "style": "ranking_champion"},
+    {"text": "1,380mg／100g", "start": 21.0, "end": 22.0, "style": "data"},
+    {"text": "是牛奶的12倍！", "start": 22.0, "end": 23.5, "style": "data"},
+    {"text": "牛奶只有113mg", "start": 23.5, "end": 25.0, "style": "comparison"},
+    {"text": "別只靠牛奶", "start": 25.0, "end": 26.0},
+    {"text": "這些食物換著吃", "start": 26.0, "end": 27.2},
+    {"text": "鈣質更充足", "start": 27.2, "end": 28.2},
+    {"text": "收藏起來", "start": 28.2, "end": 29.0},
+    {"text": "傳給家裡煮飯的人", "start": 29.0, "end": 30.2},
+    {"text": "這裡是時時靜好", "start": 30.2, "end": 31.4},
+    {"text": "我們下次見", "start": 31.4, "end": 32.5}
+  ],
+  "youtube_metadata": {
+    "title": "補鈣食物 TOP 5：第一名居然不是牛奶！｜營養素排行榜｜時時靜好",
+    "description": "喝牛奶補鈣？其實有五種食物，鈣含量是牛奶的好幾倍！\n\n🥇 補鈣食物排行榜（每 100g 鈣含量）：\n第5名｜莧菜 215mg — 一碗煮熟 = 387mg 鈣\n第4名｜板豆腐 350mg — 半塊 = 三杯牛奶的鈣\n第3名｜海帶 625mg — 是牛奶的 5.5 倍\n第2名｜黑芝麻 975mg — 是牛奶的 8.6 倍！\n第1名｜小魚乾 1,380mg — 冠軍！是牛奶的 12 倍！\n\n💡 牛奶只有 113mg/100g，但吸收率 32% 仍是好選擇。\n⚠️ 菠菜含鈣不低，但草酸讓吸收率只有 5%——別靠菠菜補鈣！\n\n🔬 小知識：\n• 板豆腐（石膏凝固）鈣吸收率 31%，與牛奶相當\n• 黑芝麻建議磨粉食用，可提升鈣吸收率\n• 小魚乾連骨吃，同時補充維生素 D\n\n📚 資料來源：\n• USDA FoodData Central (SR Legacy)\n• Heaney & Weaver, Am J Clin Nutr, 1990 — 蔬菜鈣吸收率研究\n• Weaver et al., J Food Sci, 2002 — 豆腐鈣生物利用率\n• 衛福部食品營養成分資料庫\n\n這是「營養素排行榜」系列第一集！\n用數據幫你吃得更聰明。\n\n覺得有用的話，收藏起來，傳給家裡煮飯的人！\n留言告訴我，你家平常怎麼補鈣？\n\n#補鈣 #鈣含量 #小魚乾 #黑芝麻 #豆腐 #營養排行榜 #長輩廚房 #吃對了嗎 #飲食迷思 #長輩健康 #健康新知 #時時靜好 #Shorts",
+    "hashtags": ["#補鈣", "#鈣含量", "#小魚乾", "#黑芝麻", "#豆腐", "#營養排行榜", "#長輩廚房", "#吃對了嗎", "#飲食迷思", "#長輩健康", "#健康新知", "#時時靜好", "#Shorts"]
+  }
+}

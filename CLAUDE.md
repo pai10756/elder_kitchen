@@ -84,6 +84,77 @@ Seedance 禁止上傳真人臉圖片，但**即夢自己生成的圖不受限制
 - 保守（各跑 2 次）：每集 88 點 ≈ **41 元**
 - 場景圖用 Gemini Nano Banana，不佔 Seedance 點數
 
+## 新子系列：營養素排行榜（TOP 排行榜倒數揭曉型）
+
+延伸自長輩廚房，專做食物營養素含量的比較排行。
+
+### 研究資料
+- 完整研究報告：`../night-thinking/task2_trending_analysis/06_superfood_nutrient_comparison_research.md`
+- 涵蓋：爆量心理機制、5 種圖卡格式、15 個選題、權威資料來源
+
+### 爆量關鍵
+- **數字反差**：差距越大越震撼（3 倍、5 倍、10 倍）
+- **排行榜效應**：倒數揭曉驅動完播率
+- **顛覆認知**：結果跟大眾認知不同才有傳播力
+- **標注來源**：TikTok 營養內容僅 2.1% 準確，標注 USDA/PubMed 立即差異化
+- **換算實際份量**：不只比 100g，要比「一碗」「一杯」的實際攝取量
+- **提及吸收率**：深一層的知識建立信任
+
+### 權威資料來源
+| 用途 | 來源 | 網址 |
+|------|------|------|
+| 營養素含量（主力） | USDA FoodData Central | https://fdc.nal.usda.gov/ |
+| 台灣在地食材 | 衛福部食品營養成分資料庫 | https://consumer.fda.gov.tw/Food/TFND.aspx |
+| 驗證健康宣稱 | PubMed（搜「食物名 + systematic review」） | https://pubmed.ncbi.nlm.nih.gov/ |
+| 通俗化參考 | Harvard Nutrition Source | https://nutritionsource.hsph.harvard.edu/ |
+| 謠言查核 | MyGoPen | https://www.mygopen.com/ |
+
+### 影片結構（混合型 ~30s）
+```
+[0-3s]   即夢：廚房場景 55歲女性 + Hook 口播
+[3-25s]  圖卡動畫：Pillow 自動生成，排行榜從第5名倒數到第1名
+         每張 3-4 秒，ffmpeg 加淡入動畫
+         底部角落標注資料來源
+[25-30s] 即夢：回到廚房 + CTA「收藏起來，傳給家裡煮飯的人！」
+```
+
+### 圖卡自動化方案
+- **不需要 Canva/PPT** — Pillow + ffmpeg 完全自動化
+- **不需要新依賴** — 現有管線已有 Pillow + imageio-ffmpeg
+- JSON 增加 `"type": "ranking"` 和 `ranking_data` 欄位
+- 新增 `generate_ranking_cards()` 函式，讀 JSON → Pillow 畫圖卡 → ffmpeg 串成影片段
+- assemble 主流程：中間段從「即夢 Part1+Part2」換成「圖卡影片段」
+- 食物照片：用即夢圖片生成（免費額度），可跨集重用
+
+### JSON 結構（ranking 型）
+```json
+{
+  "type": "ranking",
+  "ranking_data": [
+    {"rank": 5, "food": "豆腐", "value": 350, "unit": "mg/100g", "food_image": "tofu.png"},
+    ...
+  ],
+  "comparison_note": "牛奶僅 104mg/100g",
+  "data_source": "USDA FoodData Central"
+}
+```
+
+### 優先選題
+1. 補鈣食物 TOP 5：第一名不是牛奶！
+2. 菠菜含鐵量其實很普通，真正的補鐵冠軍是它
+3. 紅棗補血是假的！真正能補血的食物排行
+4. 維生素 C 含量 TOP 5：柳橙居然沒上榜
+5. 骨頭湯的鈣含量，竟然只有牛奶的 1/50
+
+### 注意陷阱
+- 避免使用「超級食物」一詞（歐盟 2007 年已禁止，無醫學定義）
+- 必須換算實際攝取份量（芝麻含鈣高但沒人一次吃 100g）
+- 提及生物利用率（植物性鈣吸收率低於乳製品）
+- 不做療效宣稱，框架為「均衡飲食的一部分」
+- 正面框架（「換這個吃更好」）優於恐嚇框架（「不吃就完了」）
+
+---
+
 ## 注意事項
 - Seedance prompt 用**简体中文**，字幕和 YouTube 元資料用**繁體中文**
 - 場景圖不可有人臉，人物用文字描述
