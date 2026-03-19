@@ -1,0 +1,20 @@
+{
+  "character_id": "auntie_chen",
+  "name": "陳阿姨",
+  "description": "溫暖親切的中年女性，像鄰居家會煮飯的阿姨",
+  "seedance_description": "55岁亚洲女性，短发，穿着围裙，站在厨房料理台前",
+  "appearance": {
+    "age": "55",
+    "hair": "短髮，深棕色，微卷",
+    "build": "中等身材",
+    "clothing": "橘色上衣 + 米色圍裙",
+    "expression_range": "自信、困惑、驚訝、恍然大悟、溫暖微笑"
+  },
+  "assets": {
+    "turnaround": "turnaround.png",
+    "generated_by": "gemini"
+  },
+  "first_appeared": "EP01",
+  "episodes_used": ["EP01", "EP02", "EP03"],
+  "notes": "定裝照由 Gemini 生成，可通過 Seedance 人臉審查。Part1 和 Part2 都導入同一張定裝照，人物一致性最佳。"
+}
